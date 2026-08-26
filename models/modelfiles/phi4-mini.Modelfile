@@ -1,0 +1,4 @@
+FROM ./models/gguf/phi4-mini.gguf
+PARAMETER temperature 0
+PARAMETER num_ctx 512
+PARAMETER num_predict 256
