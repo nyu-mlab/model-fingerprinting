@@ -1,0 +1,1 @@
+FROM ./models/gguf/granite3.1-2b.gguf
