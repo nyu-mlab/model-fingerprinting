@@ -1,0 +1,4 @@
+FROM ./models/gguf/nanbeige4.2-3b.gguf
+PARAMETER temperature 0
+PARAMETER num_ctx 512
+PARAMETER num_predict 256
