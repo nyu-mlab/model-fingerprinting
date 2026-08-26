@@ -1,0 +1,4 @@
+FROM ./models/gguf/openelm-1.1b.gguf
+PARAMETER temperature 0
+PARAMETER num_ctx 512
+PARAMETER num_predict 256
