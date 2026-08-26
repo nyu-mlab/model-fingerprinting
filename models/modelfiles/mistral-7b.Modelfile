@@ -1,0 +1,4 @@
+FROM ./models/gguf/mistral-7b.gguf
+PARAMETER temperature 0
+PARAMETER num_ctx 512
+PARAMETER num_predict 256
